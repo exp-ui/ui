@@ -1,0 +1,7 @@
+/*
+  Sengaja TIDAK meng-import `@tailwind base;`
+  karena preflight sudah dimatikan di tailwind.config.js.
+  Ini menjaga agar CSS package tidak menyentuh style global aplikasi konsumen.
+*/
+@tailwind components;
+@tailwind utilities;
