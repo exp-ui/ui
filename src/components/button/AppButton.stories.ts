@@ -10,6 +10,7 @@ import AppButton from './AppButton.vue'
   Jadi story ini punya dua peran sekaligus: dokumentasi DAN test.
 */
 
+
 const meta = {
     title: 'Components/AppButton',
     component: AppButton,
@@ -59,10 +60,10 @@ const meta = {
         label: 'Button',
         onClick: fn(),
     },
-} satisfies Meta<typeof AppButton>
+} satisfies Meta<any>
 
 export default meta
-type Story = StoryObj<typeof meta>
+type Story = StoryObj<any>
 
 // Render reaktif — `computed` agar perubahan Controls ikut ter-update
 const render = (args: Record<string, unknown>) => ({

@@ -2,7 +2,7 @@
     "name": "@exp-ui/ui",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Ardnh79/ui.git"
+        "url": "git+https://github.com/nama-org/ui.git"
     },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"
@@ -61,13 +61,6 @@
         "vitest-browser-vue": "^2.1.0",
         "vue": "^3.5.13",
         "vue-tsc": "^2.2.0"
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/nama-org/ui.git"
     },
     "packageManager": "yarn@3.8.7+sha512.bbe7e310ff7fd20dc63b111110f96fe18192234bb0d4f10441fa6b85d2b644c8923db8fbe6d7886257ace948440ab1f83325ad02af457a1806cdc97f03d2508e"
 }

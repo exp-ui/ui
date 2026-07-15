@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/vue3-vite'
-import { ref, watch } from 'vue'
+import { ref } from 'vue'
 import AppCheckbox from './AppCheckbox.vue'
 
 const meta = {

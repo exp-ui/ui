@@ -1,4 +1,3 @@
-import { twMerge } from 'tailwind-merge'
 
 /**
  * Gabungkan class Tailwind dengan aman.
@@ -10,10 +9,10 @@ import { twMerge } from 'tailwind-merge'
 import { extendTailwindMerge } from 'tailwind-merge'
 
 export const cn = extendTailwindMerge({
-  prefix: 'tw-',
+    prefix: 'tw-',
 })
 
 // fallback sederhana bila hanya perlu join string
 export function cx(...classes: (string | false | null | undefined)[]) {
-  return classes.filter(Boolean).join(' ')
+    return classes.filter(Boolean).join(' ')
 }
